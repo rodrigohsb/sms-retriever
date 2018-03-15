@@ -11,7 +11,7 @@ class AppApplication: Application() {
     override fun onCreate() {
         super.onCreate()
 
-        Log.i("AppApplication","appSignatures = ${AppSignatureHelper(this).appSignatures}")
+        Log.i("AppApplication","appSignatures = ${AppSignatureHelper(this).getAppSignatures()}")
 
     }
 }
